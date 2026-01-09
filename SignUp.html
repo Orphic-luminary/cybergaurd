@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberGuard - Sign Up</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="main.js"></script>
+</head>
+
+<body>
+  <div class="header-container">
+    <img src="logo.png" alt="CyberGuard Logo" class="logo">
+    <h1 class="main-heading">CyberGuard</h1>
+  </div>
+  <div class="form">
+    <h2>User Registration</h2>
+    <div class="name">
+      <label for="name">Name</label>
+      <input type="name" name="name" id="name" placeholder="Enter Your Name" />
+    </div>
+    <div class="email">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter Email" />
+    </div>
+    <div class="pass">
+      <label for="password">Password</label>
+      <div class="pass-container">
+        <input type="password" name="password" id="password" placeholder="Enter Password" />
+        <span class="toggle-password" id="togglePassword">SHOW</span>
+      </div>
+    </div>
+
+    <button id="submit-btn">
+      <div class="spinner" id="loader"></div>
+      <span id="btn-text">Sign Up</span>
+    </button>
+    <p>Already have an account ?</p>
+    <span><a href="LogIn.html">Login</a></span>
+    <button id="home-btn">← Back to Home Page</button>
+  </div>
+</body>
+
+</html>
